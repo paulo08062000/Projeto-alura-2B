@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <!-- É um dicionario para codificar os caracteres  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraBooks</title>
@@ -15,16 +16,19 @@
 <body>
     <header class="cabeçalho">
         <div class="container">
+            <!-- cria um campo para interagir com o usuario esse campo pode ser de varios formatos sendo textos,data, hora etc-->
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu">
                 <span class="cabeçalho__menu-hamburguer container__imagem"></span>
             </label>
+            <!-- cria uma lista não ordenada-->
             <ul class="lista-menu">
                 <li class="lista-menu__titulo">Categorias</li>
                 <li class="lista-menu__item">
                     <a href="#" class="lista-menu__link">Programação</a>
                 </li>
                 <li class="lista-menu__item">
+                   <!-- cria um ancora, link-->
                     <a href="#" class="lista-menu__link">Front-end</a>
                 </li>
                 <li class="lista-menu__item">
